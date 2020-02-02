@@ -10,7 +10,7 @@ public class CalcTest {
         double numb1 = scan.nextDouble();
         System.out.println("Wprowadź drugą liczbę: ");
         double numb2 = scan.nextDouble();
-
+        System.out.println(calculator.calc(numb1, numb2));
         scan.close();
 
 
