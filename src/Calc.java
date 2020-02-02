@@ -5,8 +5,8 @@ public class Calc {
             return numb1 + numb2;
         } else if (numb1 < numb2) {
             return numb1 * numb2;
-        } else {
-            // Co z tym? (numb1 == numb2)???
+        } else//(numb1 == numb2)
+        {
             return Math.pow(numb1, numb2);
         }
 
